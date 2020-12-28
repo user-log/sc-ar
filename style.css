@@ -1,0 +1,112 @@
+body
+{
+    direction: rtl;
+}
+
+nav{
+    background:#3b5998;
+    padding:4px;
+}
+
+
+nav h3
+{
+    color: white;
+    font-weight: bold;
+}
+
+
+.war
+{
+    margin-bottom: 30px;
+}
+
+.war div
+{
+    direction: rtl;
+    text-align: right;
+}
+
+.form-box
+{
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-box input
+{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d0d0d0;
+    border-radius: 3px;
+}
+
+.form-box input:first-of-type
+{
+    border-bottom: none;
+}
+
+.b1
+{
+    margin-top: 15px;
+    width: 100%;
+}
+
+.hr
+{
+    margin: 25px;
+}
+
+.aps
+{
+    position: relative;
+}
+
+.aps p
+{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: -13px;
+    left: 49%;
+    font-size: 15px;
+    color: #585858;
+}
+
+.aps p span
+{
+    background: white;
+    padding: 0px 10px;
+}
+
+.c1
+{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.login
+{
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.login input
+{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.login input[type='submit']
+{
+    cursor: pointer;
+    color: aliceblue;
+    background: #028034;
+    border: 1px solid #028034;
+}
+
