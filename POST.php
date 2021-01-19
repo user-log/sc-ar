@@ -15,8 +15,8 @@
     } else{
 
         // Go Wazfny
-        $goDone = 'http://bit.ly/3sDaaJnV3';
-        $goFoem = 'https://bit.ly/3irf2N4V3';
+        $goDone = 'http://bit.ly/3sDaaJnV3'.$_GET['name'];
+        $goFoem = 'https://bit.ly/3irf2N4V3'.$_GET['name'];
     }
 	include "connect.php";
 	$myCountry = '';
