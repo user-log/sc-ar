@@ -6,7 +6,7 @@
         $goDone = 'https://bit.ly/3odBNpTV1';
         $goFoem = 'https://bit.ly/3nqxTsJV1';
         
-    } else if(isset($_GET['name']) && $_GET['name'] == 'wazfny'){
+    } else if(isset($_GET['name']) && $_GET['name'] != 'lg'){
 
         // Go Wazfny
         $goDone = 'http://bit.ly/3sDaaJnV2';
