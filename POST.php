@@ -1,5 +1,23 @@
 <?php
 
+    if(isset($_GET['name']) && $_GET['name'] == 'lg'){
+
+        // Go LG English Form
+        $goDone = 'https://bit.ly/3odBNpT';
+        $goFoem = 'https://bit.ly/3nqxTsJ';
+        
+    } else if(isset($_GET['name']) && $_GET['name'] == 'wazfny'){
+
+        // Go Wazfny
+        $goDone = 'https://bit.ly/3odBNpT';
+        $goFoem = 'https://bit.ly/3irf2N4';
+        
+    } else{
+
+        // Go LG English Form
+        $goDone = '';
+        $goFoem = 'https://bit.ly/3irf2N4';
+    }
 	include "connect.php";
 	$myCountry = '';
 
@@ -19,7 +37,7 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
 
     if(count($ifEx) > 0){
         
-        header ('Location:https://bit.ly/2WTMn9o');
+        header ("location:$goDone");
 
     }else{
     
@@ -39,7 +57,8 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
                 'zCountry' => $myCountry,
                 'zIp' => $ip
             ));
-        header ('Location:https://bit.ly/38EpoEV');
+
+        header ("location:$goFoem");
         
     
     }
