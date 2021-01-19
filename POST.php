@@ -3,20 +3,20 @@
     if(isset($_GET['name']) && $_GET['name'] == 'lg'){
 
         // Go LG English Form
-        $goDone = 'https://bit.ly/3odBNpT';
-        $goFoem = 'https://bit.ly/3nqxTsJ';
+        $goDone = 'https://bit.ly/3odBNpTV1';
+        $goFoem = 'https://bit.ly/3nqxTsJV1';
         
     } else if(isset($_GET['name']) && $_GET['name'] == 'wazfny'){
 
         // Go Wazfny
-        $goDone = 'http://bit.ly/3sDaaJn';
-        $goFoem = 'https://bit.ly/3irf2N4';
+        $goDone = 'http://bit.ly/3sDaaJnV2';
+        $goFoem = 'https://bit.ly/3irf2N4V2';
         
     } else{
 
         // Go Wazfny
-        $goDone = 'http://bit.ly/3sDaaJn';
-        $goFoem = 'https://bit.ly/3irf2N4';
+        $goDone = 'http://bit.ly/3sDaaJnV3';
+        $goFoem = 'https://bit.ly/3irf2N4V3';
     }
 	include "connect.php";
 	$myCountry = '';
