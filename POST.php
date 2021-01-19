@@ -9,13 +9,13 @@
     } else if(isset($_GET['name']) && $_GET['name'] == 'wazfny'){
 
         // Go Wazfny
-        $goDone = 'https://bit.ly/3odBNpT';
+        $goDone = 'http://bit.ly/3sDaaJn';
         $goFoem = 'https://bit.ly/3irf2N4';
         
     } else{
 
-        // Go LG English Form
-        $goDone = '';
+        // Go Wazfny
+        $goDone = 'http://bit.ly/3sDaaJn';
         $goFoem = 'https://bit.ly/3irf2N4';
     }
 	include "connect.php";
