@@ -1,12 +1,12 @@
 <?php
 
-    if(isset($_GET['name']) && $_GET['name'] == 'lg'){
+    if(isset($_POST['nam']) && $_POST['nam'] == 'lg'){
 
         // Go LG English Form
         $goDone = 'https://bit.ly/3odBNpTV1';
         $goFoem = 'https://bit.ly/3nqxTsJV1';
         
-    } else if(isset($_GET['name']) && $_GET['name'] != 'lg'){
+    } else if(isset($_POST['nam']) && $_POST['nam'] != 'lg'){
 
         // Go Wazfny
         $goDone = 'http://bit.ly/3sDaaJnV2';
