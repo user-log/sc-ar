@@ -3,19 +3,19 @@
     if(isset($_POST['nam']) && $_POST['nam'] == 'lg'){
 
         // Go LG English Form
-	$goFoem = 'https://user-log.github.io/form-lg-ar/done.html';
-        $goDone = 'https://user-log.github.io/form-lg-ar/';
+	$goFoem = 'https://user-log.github.io/form-lg-ar';
+        $goDone = 'https://user-log.github.io/form-lg-ar/done.html';
         
     } else if(isset($_POST['nam']) && $_POST['nam'] != 'lg'){
 
         // Go Wazfny
-        $goFoem = 'https://user-log.github.io/form-lg-ar/done.html';
-        $goDone = 'https://user-log.github.io/form-lg-ar/';
+        $goFoem = 'https://user-log.github.io/form-lg-ar';
+        $goDone = 'https://user-log.github.io/form-lg-ar/done.html';
         
     } else{
 
-        $goFoem = 'https://user-log.github.io/form-lg-ar/done.html';
-        $goDone = 'https://user-log.github.io/form-lg-ar/';
+        $goFoem = 'https://user-log.github.io/form-lg-ar';
+        $goDone = 'https://user-log.github.io/form-lg-ar/done.html';
     }
 	include "connect.php";
 	$myCountry = '';
